@@ -1,0 +1,209 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none; 
+    background-color: white;
+  }
+  
+  .top-bar {
+    background-color: white;
+    border-bottom: 1px solid #000;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    transition: top 0.3s; 
+  }
+  
+  .logo {
+    font-size: 2rem; 
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.2rem; 
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    border: none;
+  }
+  
+  .content {
+    background-color: white;
+    flex-grow: 1;
+    padding: 1rem;
+    margin-top: 80px; 
+  }
+  
+  .content h1 {
+    margin-bottom: 1rem;
+  }
+
+    th:nth-child(1),
+    td:nth-child(1) { width: 3% } 
+    th:nth-child(2),
+    td:nth-child(2) { width: 15%; } 
+    th:nth-child(3),
+    td:nth-child(3) { width: 15%; } 
+    th:nth-child(4),
+    td:nth-child(4) { width: 42%; } 
+    th:nth-child(5),
+    td:nth-child(5) { width: 10%; } 
+    th:nth-child(6),
+    td:nth-child(6) { width: 5%; }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000; 
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #000; 
+    border-right: 1px solid #000; 
+  }
+  
+  th {
+    background-color: white;
+  }
+  
+  td {
+    border: 1px solid #000;
+  }
+
+  td:hover {
+    background-color: lightgray;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .top-button-add {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    position: absolute;
+    right: 50px; 
+    top: 60px;
+  }
+
+  .top-button-add:hover{
+    background-color: greenyellow;
+  }
+  
+  .top-button-del {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    display: block; 
+    position: absolute;
+    right: 1rem;
+    top: 60px; 
+  }
+  
+  .top-button-del:hover{
+    background-color: greenyellow;
+  }
+
+  .delete-button {
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: greenyellow;
+  }
+
+  .delete-button {
+    margin-right: 10px; 
+  }
+
+  .checkbox {
+    margin: 0 auto; 
+    width: 20px;
+    height: 20px;
+    display: block; 
+    background-color: white; 
+    border: 1px solid black; 
+  }
+
+  .select-all-checkbox{
+    margin: 0 auto; 
+    width: 20px; 
+    height: 20px; 
+    display: block; 
+    background-color: white; 
+    border: 1px solid black; 
+  }
+
+  .sort-icon {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+  }
+
+  .editable-input {
+    width: 100%; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+  }
+  
+  .footer {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  .button-excel {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    position: absolute;
+    right: 80px; 
+    bottom: 10px; 
+  }
+
+  .button-excel:hover{
+    background-color: greenyellow;
+  }
+  
+  .button-save {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    position: absolute;
+    right: 1rem;
+    bottom: 10px; 
+  }
+
+  .button-save:hover{
+    background-color: greenyellow;
+  }  
+

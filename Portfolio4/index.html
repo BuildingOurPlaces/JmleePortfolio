@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Inventory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="logo">BOOK INVENTORY</div>
+  </div>
+  <div class="buttons">
+    <button class="top-button-add">+</button>
+    <button class="top-button-del">-</button>
+  </div>
+  <div class="container">
+    <main class="content">
+      <table>
+        <thead>
+          <tr>
+            <th><input type="checkbox" id="selectAll" class="select-all-checkbox"></th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Content</th>
+            <th data-sort="price">Price <span class="sort-icon"></span></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="postList">
+        </tbody>
+      </table>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="buttons">
+      <button class="button-excel" onclick="exportTableToExcel()">EXCEL</button>
+      <button class="button-save" onclick="showSaveAlert()">SAVE</button>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
