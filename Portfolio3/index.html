@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/lrs3dxz.css">
+</head>
+<body>
+  <div class="logo">
+    <h1 class="logo-text">HELLO, WORLD</h1>
+  </div>
+  <div class="weather">
+    <span id="temperature"></span> ℃
+  </div>
+  <div class="current-time">
+    <span id="current-time"></span>
+  </div>
+  <div class="smiley-icon" onclick="showRotate()">
+    🌞
+  </div>
+  <div class="container">
+    <div id="myDIV" class="header">
+      <h2 class="question" id="question">WHAT IS YOUR PLAN TODAY?</h2><br>
+      <input type="text" id="myInput" onkeypress="addTask(event)">
+    </div><br>
+    <ul id="myUL">
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
